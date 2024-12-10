@@ -1,4 +1,6 @@
 import requests
+import os 
+load_dotenv()
 
 headers = {
     'Content-type': 'application/json',
